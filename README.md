@@ -1,17 +1,10 @@
-The sample image for the program is in the folder “images” in the submission folder.
+ImageProcessing is a Java Desktop application created for Northeastern University's Object Oriented Design class (CS 3500) by me and my lab partner (Anisha). ImageProcessing is an application that allows users to modify images with color modifications, orientation modifications, and other image modifications listed below. Java Swing was used to create the application's GUI. The application was developed using important design patterns: MVC pattern, Command pattern and others used in the code.
 
+This is an academic project, so the code is not included with this public repository as per university rules. The code is avaliable on request for non-academic purposes.
 
-Program Design changes and justifications
+Thank you to my professors and lab partner (Anisha) for helping with this project.
 
-Considering the MVC design pattern, all three components, the model, the view, and the controller, are all completed and are functional.
-
-In terms of the model, following the open-closed design principal, we created a new interface called IMultiplexImageModel and a new class called MultiplexImageModelImpl that implements the new interface. Using composition, this class has a field that takes in our previous version of the model, or ComplexImageModel. In the MultiplexImageModel class, we added a method that creates the histogram for the corresponding loaded image.
-
-For the GUI View, we created a new interface called IGUIView and a class called GUI View that extends JFrame and also implements this interface. Within this class, we created the GUI View using the Java Swing library. 
-
-We also created a new controller in a class called GUIController that implements ActionListener and also a new interface called IGUIController. This class serves as the action listener that is being added to the components of the GUI View in the GUIView class. We can start the program by calling upon the start method in this GUIController class.
-
-List of Complete and Working Features
+List of Features
 Open Image (Load)
 Horizontal Flip
 Vertical Flip
@@ -95,5 +88,21 @@ ex: “sepia koala koala-sepia”
 ex: “save images/koala.bmp koala-sepia
 
 17. “quit”/“Quit”/“q”/“Q”
+
+Change Log:
+
+
+The sample image for the program is in the folder “images” in the submission folder.
+
+
+Program Design changes and justifications
+
+Considering the MVC design pattern, all three components, the model, the view, and the controller, are all completed and are functional.
+
+In terms of the model, following the open-closed design principal, we created a new interface called IMultiplexImageModel and a new class called MultiplexImageModelImpl that implements the new interface. Using composition, this class has a field that takes in our previous version of the model, or ComplexImageModel. In the MultiplexImageModel class, we added a method that creates the histogram for the corresponding loaded image.
+
+For the GUI View, we created a new interface called IGUIView and a class called GUI View that extends JFrame and also implements this interface. Within this class, we created the GUI View using the Java Swing library. 
+
+We also created a new controller in a class called GUIController that implements ActionListener and also a new interface called IGUIController. This class serves as the action listener that is being added to the components of the GUI View in the GUIView class. We can start the program by calling upon the start method in this GUIController class.
 
 
