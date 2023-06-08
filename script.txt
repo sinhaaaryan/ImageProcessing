@@ -1,0 +1,80 @@
+load images/sample.ppm sample
+red-component sample sample-red
+green-component sample sample-green
+blue-component sample sample-blue
+value-component sample sample-value
+intensity-component sample sample-intensity
+luma-component sample sample-luma
+brighten 100 sample sample-brighten
+brighten -100 sample sample-darken
+vertical-flip sample sample-vertical
+horizontal-flip sample sample-horizontal
+blur sample sample-blur
+sharpen sample sample-sharpen
+greyscale sample sample-greyscale
+sepia sample sample-sepia
+
+
+
+save images/sample-red-grey.png sample-red
+save images/sample-green-grey.png sample-green
+save images/sample-blue-grey.png sample-blue
+save images/sample-value-grey.png sample-value
+save images/sample-intensity-grey.png sample-intensity
+save images/sample-luma-grey.png sample-luma
+save images/sample-brighter.png sample-brighten
+save images/sample-darker.png sample-darken
+save images/sample-vertical.png sample-vertical
+save images/sample-horizontal.png sample-horizontal
+save images/sample-blur.png sample-blur
+save images/sample-sharpen.png sample-sharpen
+save images/sample-greyscale.png sample-greyscale
+save images/sample-sepia.png sample-sepia
+
+save images/sample-red-grey.jpg sample-red
+save images/sample-green-grey.jpg sample-green
+save images/sample-blue-grey.jpg sample-blue
+save images/sample-value-grey.jpg sample-value
+save images/sample-intensity-grey.jpg sample-intensity
+save images/sample-luma-grey.jpg sample-luma
+save images/sample-brighter.jpg sample-brighten
+save images/sample-darker.jpg sample-darken
+save images/sample-vertical.jpg sample-vertical
+save images/sample-horizontal.jpg sample-horizontal
+save images/sample-blur.jpg sample-blur
+save images/sample-sharpen.jpg sample-sharpen
+save images/sample-greyscale.jpg sample-greyscale
+save images/sample-sepia.jpg sample-sepia
+
+save images/sample-red-grey.bmp sample-red
+save images/sample-green-grey.bmp sample-green
+save images/sample-blue-grey.bmp sample-blue
+save images/sample-value-grey.bmp sample-value
+save images/sample-intensity-grey.bmp sample-intensity
+save images/sample-luma-grey.bmp sample-luma
+save images/sample-brighter.bmp sample-brighten
+save images/sample-darker.bmp sample-darken
+save images/sample-vertical.bmp sample-vertical
+save images/sample-horizontal.bmp sample-horizontal
+save images/sample-blur.bmp sample-blur
+save images/sample-sharpen.bmp sample-sharpen
+save images/sample-greyscale.bmp sample-greyscale
+save images/sample-sepia.bmp sample-sepia
+
+save images/sample-red-grey.ppm sample-red
+save images/sample-green-grey.ppm sample-green
+save images/sample-blue-grey.ppm sample-blue
+save images/sample-value-grey.ppm sample-value
+save images/sample-intensity-grey.ppm sample-intensity
+save images/sample-luma-grey.ppm sample-luma
+save images/sample-brighter.ppm sample-brighten
+save images/sample-darker.ppm sample-darken
+save images/sample-vertical.ppm sample-vertical
+save images/sample-horizontal.ppm sample-horizontal
+save images/sample-blur.ppm sample-blur
+save images/sample-sharpen.ppm sample-sharpen
+save images/sample-greyscale.ppm sample-greyscale
+save images/sample-sepia.ppm sample-sepia
+
+
+q
