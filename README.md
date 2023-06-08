@@ -1,10 +1,17 @@
+# ImageProcessing: Image Modification Program 
+
+![alt text](https://github.com/sinhaaaryan/ImageProcessing/blob/main/ExampleScreenShotTransformedPicture.jpeg)
+
+
+# Introduction
+
 ImageProcessing is a Java Desktop application created for Northeastern University's Object Oriented Design class (CS 3500) by me and my lab partner (Anisha). ImageProcessing is an application that allows users to modify images with color modifications, orientation modifications, and other image modifications listed below. Java Swing was used to create the application's GUI. The application was developed using important design patterns: MVC pattern, Command pattern and others used in the code.
 
 This is an academic project, so the code is not included with this public repository as per university rules. The code is avaliable on request for non-academic purposes.
 
 Thank you to my professors and lab partner (Anisha) for helping with this project.
 
-List of Features
+# Features
 Open Image (Load)
 Horizontal Flip
 Vertical Flip
@@ -21,12 +28,13 @@ Blur
 Sharpen
 Save
 
-Citation for Image
+# Citations
+
 The image of Boston’s North End is displayed on the screenshot is taken from Viator.com. The image is from the following link. 
 https://www.viator.com/tours/Boston/PhotoWalks-Boston-North-End-Little-Italy-Tour/d678-3643P12
 
 
-How to use the program
+# Program Instructions
 
 The program can be used in three ways, either by using it with its GUI, with a script you can pass into the program, or by using the interactive text mode to use program.
 
@@ -89,7 +97,7 @@ ex: “save images/koala.bmp koala-sepia
 
 17. “quit”/“Quit”/“q”/“Q”
 
-Change Log:
+# Change Log:
 
 
 The sample image for the program is in the folder “images” in the submission folder.
